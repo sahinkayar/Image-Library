@@ -1,0 +1,26 @@
+*{ 
+  overflow-x: hidden;
+}
+h1{ 
+  font-family: monospace;
+  text-transform: capitalize;
+}
+.App{ 
+  margin: 10px;
+}
+.img-container{
+  margin: 10px;
+}
+.img-up{ 
+  display: grid;
+  grid-template-columns: auto auto auto auto auto ;
+  column-gap: 10px;
+  border: 2px solid rgb(247, 247, 220);
+   margin: 10px;
+}
+.img-item{ 
+  width: 100%;
+  height: 250px;
+  margin: 4px;
+  border: 1px solid black;
+}

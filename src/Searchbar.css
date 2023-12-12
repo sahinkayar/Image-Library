@@ -1,0 +1,26 @@
+form{ 
+    display: flex;
+    flex-direction: column;
+}
+.container{ 
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+input{ 
+    padding: 15px;
+}
+button{ 
+    background-color: greenyellow;
+    padding: 7px;
+    font-size: 20px;
+}
+.div-item { 
+    font-size: 25px;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.span-item {
+    color: rgb(51, 0, 255);
+    font-weight: bolder;
+}
